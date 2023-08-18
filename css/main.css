@@ -1,0 +1,153 @@
+body {
+  background-color: #FFF2F9;
+  font-family: Poppins;
+  padding: 0 2% 0 2%;
+}
+
+a {
+  color: inherit; /* Inherit text color from parent */
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFF2F9;
+  padding: 10px 20px;
+  align-items: center;
+  border-radius: 5%;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a {
+  color: #1E1E1E;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.navbar-links a:hover {
+  color: #FA4EAB;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.brand-name {
+  color: #1E1E1E;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: -10px;
+}
+
+.portfolio-banner {
+  width: 100%;
+  height: 80vh;
+  background: url("../images/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Gradient overlay */
+.gradient-overlay {
+  width: 100%;
+  height: 90%;
+  background: linear-gradient(rgba(254,0,137,1), rgba(255,148,238,1));
+  position: absolute;
+  top: 47px;
+  left: 0;
+  border-radius: 50px 50px 500px 50px;
+  overflow: hidden;
+}
+
+/* Right side image overlap */
+.image-overlay {
+  width: 532px;
+  min-height: 80vh;
+  background: url("../images/v14_4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+/* Text content */
+.banner-text {
+  width: 671px;
+  height: 80vh;
+  background: url("../images/text-background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 25%;
+  left: 108px;
+  overflow: hidden;
+}
+
+.welcome-message {
+  width: 431px;
+  color: rgba(255,255,255,1);
+  font-weight: Medium;
+  font-size: 32px;
+  text-align: left;
+  padding: 20px;
+}
+
+.portfolio-name {
+  width: 671px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 24px;
+  left: 0;
+  font-weight: Black;
+  font-size: 96px;
+  text-align: left;
+  padding: 20px;
+}
+
+/* Call-to-action button */
+.cta-button {
+  width: 256px;
+  height: 64px;
+  background: rgba(255,242,249,1);
+  position: absolute;
+  top: 70%;
+  left: 105px;
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+.cta-button-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #ddd;
+}
