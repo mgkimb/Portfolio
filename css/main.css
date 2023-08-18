@@ -15,7 +15,9 @@ a {
   background-color: #FFF2F9;
   padding: 10px 20px;
   align-items: center;
-  border-radius: 5%;
+  position: sticky;
+  z-index: 10000;
+  top: 0;
 }
 
 .navbar-links {
@@ -44,13 +46,14 @@ a {
   margin-right: 10px;
 }
 
-.brand-name {
+span.brand-name {
   color: #1E1E1E;
   font-size: 24px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
-  margin-top: -10px;
+  position: relative!important;
+  top: -10px;
 }
 
 .portfolio-banner {
@@ -151,3 +154,141 @@ a {
 .cta-button:hover {
   background-color: #ddd;
 }
+.about-me-and-skills {
+  display: flex;
+  width: 100%;
+}
+
+.personal-info {
+  flex: 40%;
+  padding: 5%;
+}
+
+.pink {
+  color: #ff068b;
+}
+
+.skills-grid {
+  flex: 60%;
+  padding-top: 5%;
+  padding-right: 5%;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skills {
+  width: 40%;
+  padding: 20px;
+  background: linear-gradient(218deg, #FE83C6 0%, #FF008A 100%);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  color: #FFF2F9;
+}
+
+.skills-content {
+  text-align: center;
+}
+
+.skill-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.skill-description {
+  font-size: 16px;
+}
+
+.works-info {
+  flex: 100%;
+  padding: 10%; /* Remove padding */
+  margin: -5%; /* Remove margin */
+  background: linear-gradient(183deg, #FFF2F9 25%, #FF008A 100%);
+}
+
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 35px;
+
+}
+
+.work {
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.work img {
+  width: 300px;
+  height: 200px;
+  transition: transform 0.3s, filter 0.3s;
+  border-radius: 50px;
+  filter: grayscale(100%);
+}
+
+.work:hover img {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+
+.button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #FF008A;
+  color: #ffffff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 1;
+}
+
+.work:hover .button {
+  opacity: 1;
+  background-color: #FF008A;
+  color: #ffffff;
+}
+
+.button.active {
+  opacity: 1;
+  background-color: #fff;
+  color: #000;
+}
+
+.work:hover .button.active {
+  opacity: 1;
+  background-color: #fff;
+  color: #000;
+}
+.additional-info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ff008ccf;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  display: none;
+}
+
+.work:hover .additional-info {
+  opacity: 1;
+}
+
+.additional-info.show {
+  display: block;
+}
+
