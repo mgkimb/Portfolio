@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
     <link href="./css/main.css" rel="stylesheet" />
     <title>Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/script.js" defer></script>
   </head>
   <body>
@@ -12,7 +13,7 @@
       <div class="brand">
         <a href="index.html" style="text-decoration: none!important;">
           <img src="images/v5_12.png" alt="Brand Logo">
-          <span class="brand-name">MG<class style="color: #FA4EAB; margin-top: -5%;">KIM</style><class style="color: #1E1E1E;">B </style>
+          <span class="brand-name">MG<class style="color: #FA4EAB; margin-top: -5%;">KIM</style><class style="color: #1E1E1E;">B</style>
           </span>
         </a>
       </div>
@@ -204,27 +205,27 @@
           </div>
         </div>
       </div>
-      <a class="recommend-btn" href="#recommendations" id = "eduex">Worked with me before?</a>
+      <a class="recommend-btn" href="#recommendations" id="eduex">Worked with me before?</a>
     </div>
     <div class="eduex-info">
       <div class="container mt-5">
         <div class="row">
           <div class="col-md-6">
             <svg xmlns="http://www.w3.org/2000/svg" width="80" height="12" viewBox="0 0 80 12" fill="none">
-              <rect width="61" height="11" rx="5.5" transform="matrix(1 0 0 -1 0 11.9961)" fill="url(#paint0_linear_64_3)"/>
-              <rect width="13" height="11" rx="5.5" transform="matrix(1 0 0 -1 67 11.9961)" fill="url(#paint1_linear_64_3)"/>
+              <rect width="61" height="11" rx="5.5" transform="matrix(1 0 0 -1 0 11.9961)" fill="url(#paint0_linear_64_3)" />
+              <rect width="13" height="11" rx="5.5" transform="matrix(1 0 0 -1 67 11.9961)" fill="url(#paint1_linear_64_3)" />
               <defs>
                 <linearGradient id="paint0_linear_64_3" x1="3.43125" y1="7.50389" x2="61.419" y2="5.75854" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#FF92ED"/>
-                  <stop offset="0.641934" stop-color="#FFC6E5"/>
-                  <stop offset="0.994812" stop-color="#FFB6F3"/>
-                  <stop offset="0.994912" stop-color="#FF8AC9"/>
+                  <stop stop-color="#FF92ED" />
+                  <stop offset="0.641934" stop-color="#FFC6E5" />
+                  <stop offset="0.994812" stop-color="#FFB6F3" />
+                  <stop offset="0.994912" stop-color="#FF8AC9" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_64_3" x1="0.73125" y1="7.50389" x2="13.1" y2="7.42455" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#FF92ED"/>
-                  <stop offset="0.641934" stop-color="#FFC6E5"/>
-                  <stop offset="0.994812" stop-color="#FFB6F3"/>
-                  <stop offset="0.994912" stop-color="#FF8AC9"/>
+                  <stop stop-color="#FF92ED" />
+                  <stop offset="0.641934" stop-color="#FFC6E5" />
+                  <stop offset="0.994812" stop-color="#FFB6F3" />
+                  <stop offset="0.994912" stop-color="#FF8AC9" />
                 </linearGradient>
               </defs>
             </svg>
@@ -266,23 +267,22 @@
               </a>
             </div>
           </div>
-    
           <div class="col-md-6">
             <svg xmlns="http://www.w3.org/2000/svg" width="80" height="12" viewBox="0 0 80 12" fill="none">
-              <rect width="61" height="11" rx="5.5" transform="matrix(1 0 0 -1 0 11.9961)" fill="url(#paint0_linear_64_3)"/>
-              <rect width="13" height="11" rx="5.5" transform="matrix(1 0 0 -1 67 11.9961)" fill="url(#paint1_linear_64_3)"/>
+              <rect width="61" height="11" rx="5.5" transform="matrix(1 0 0 -1 0 11.9961)" fill="url(#paint0_linear_64_3)" />
+              <rect width="13" height="11" rx="5.5" transform="matrix(1 0 0 -1 67 11.9961)" fill="url(#paint1_linear_64_3)" />
               <defs>
                 <linearGradient id="paint0_linear_64_3" x1="3.43125" y1="7.50389" x2="61.419" y2="5.75854" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#FF92ED"/>
-                  <stop offset="0.641934" stop-color="#FFC6E5"/>
-                  <stop offset="0.994812" stop-color="#FFB6F3"/>
-                  <stop offset="0.994912" stop-color="#FF8AC9"/>
+                  <stop stop-color="#FF92ED" />
+                  <stop offset="0.641934" stop-color="#FFC6E5" />
+                  <stop offset="0.994812" stop-color="#FFB6F3" />
+                  <stop offset="0.994912" stop-color="#FF8AC9" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_64_3" x1="0.73125" y1="7.50389" x2="13.1" y2="7.42455" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#FF92ED"/>
-                  <stop offset="0.641934" stop-color="#FFC6E5"/>
-                  <stop offset="0.994812" stop-color="#FFB6F3"/>
-                  <stop offset="0.994912" stop-color="#FF8AC9"/>
+                  <stop stop-color="#FF92ED" />
+                  <stop offset="0.641934" stop-color="#FFC6E5" />
+                  <stop offset="0.994812" stop-color="#FFB6F3" />
+                  <stop offset="0.994912" stop-color="#FF8AC9" />
                 </linearGradient>
               </defs>
             </svg>
@@ -326,52 +326,45 @@
           </div>
         </div>
       </div>
-      </div>
-    
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
     </div>
 
-    <style>
-     <?php
-          function generateRandomPinkColor() {
-            $red = mt_rand(200, 255);
-            $green = mt_rand(100, 150);
-            $blue = mt_rand(150, 200);
-            return "rgb($red, $green, $blue)";
-          }
-        ?>
-    .flip-card-front {
-      background-color: <?php echo generateRandomPinkColor(); ?>;
-    }
-
-    .flip-card-back {
-      background-color: <?php echo generateRandomPinkColor(); ?>;
-      transform: rotateY(180deg);
-
-      </style>
-      
-    <div class="recommendations-info" id="recommendations">
-      <section class="flip-card-container">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <span class="quote">Front Quote 1</span>
-            </div>
-            <div class="flip-card-back">
-              <span class="name">Name 1</span>
-              <span class="job">Job 1</span>
-              <a href="#" class="linkedin">LinkedIn 1</a>
-            </div>
-          </div>
-        </div>
-        <!-- Add more flip cards here -->
-      </section>
-    </div>
   
+
+    <section class="recommendations">
+
+    <div class="whattheysay">
+      <div class="hero">
+        <h1 class="hero__heading" id="reco">What do people say <br>about Kim? </h1>
+      </div>
+      <div class="hero hero--secondary" aria-hidden="true" data-hero>
+        <p class="hero__heading">pls work</p>
+      </div>
+    </div>
+    <div class="ticker-container">
+  <div class="ticker-wrapper">
+    <div class="ticker">
+      <span class="ticker-text">Limited time offer:</span> Get 10% off on our 1 Litre pack of Ghee! <a class="btn blink" href="[product-page-url]">Grab your pack now!</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="ticker-text">Introductory offer:</span> Buy our 150 ml pack of Ghee and get 100 gms Jaggery Powder complimentary. Try our small packs today! <a class="btn blink" href="[product-page-url]">Shop now!</a>
+    </div>
+  </div>
+</div>
+    </section>
+
+<div class="footer">
+  <div id="button"></div>
+<div id="container">
+<div id="cont">
+<div class="footer_center">
+     <h3>Classy footer text</h3>
+</div>
+</div>
+</div>
+</div>
+
+    <script src="js/cursor.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   </body>
 </html>
