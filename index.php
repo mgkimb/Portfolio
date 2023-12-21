@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
     <link href="./css/main.css" rel="stylesheet" />
     <title>Portfolio</title>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/script.js" defer></script>
   </head>
@@ -13,7 +14,8 @@
       <div class="brand">
         <a href="index.html" style="text-decoration: none!important;">
           <img src="images/v5_12.png" alt="Brand Logo">
-          <span class="brand-name">MG<class style="color: #FA4EAB; margin-top: -5%;">KIM</style><class style="color: #1E1E1E;">B</style>
+          <span class="brand-name">MG <class style="color: #FA4EAB; margin-top: -5%;">KIM </style>
+              <class style="color: #1E1E1E;">B </style>
           </span>
         </a>
       </div>
@@ -34,10 +36,11 @@
         <div class="portfolio-name">
           <b>my portfolio</b>
         </div>
-      </div>
-      <div class="cta-button">
+        <div class="cta-button">
         <div class="cta-button-text">Download CV</div>
       </div>
+      </div>
+      
     </div>
     <div class="about-me-and-skills" id="about">
       <div class="personal-info">
@@ -207,164 +210,338 @@
       </div>
       <a class="recommend-btn" href="#recommendations" id="eduex">Worked with me before?</a>
     </div>
-    <div class="eduex-info">
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-6">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="12" viewBox="0 0 80 12" fill="none">
-              <rect width="61" height="11" rx="5.5" transform="matrix(1 0 0 -1 0 11.9961)" fill="url(#paint0_linear_64_3)" />
-              <rect width="13" height="11" rx="5.5" transform="matrix(1 0 0 -1 67 11.9961)" fill="url(#paint1_linear_64_3)" />
-              <defs>
-                <linearGradient id="paint0_linear_64_3" x1="3.43125" y1="7.50389" x2="61.419" y2="5.75854" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#FF92ED" />
-                  <stop offset="0.641934" stop-color="#FFC6E5" />
-                  <stop offset="0.994812" stop-color="#FFB6F3" />
-                  <stop offset="0.994912" stop-color="#FF8AC9" />
-                </linearGradient>
-                <linearGradient id="paint1_linear_64_3" x1="0.73125" y1="7.50389" x2="13.1" y2="7.42455" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#FF92ED" />
-                  <stop offset="0.641934" stop-color="#FFC6E5" />
-                  <stop offset="0.994812" stop-color="#FFB6F3" />
-                  <stop offset="0.994912" stop-color="#FF8AC9" />
-                </linearGradient>
-              </defs>
-            </svg>
+    <section class = "education">
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="11" viewBox="0 0 80 11" fill="none">
+  <rect width="61" height="11" rx="5.5" transform="matrix(1 0 0 -1 0 11)" fill="url(#paint0_linear_64_3)"/>
+  <rect width="13" height="11" rx="5.5" transform="matrix(1 0 0 -1 67 11)" fill="url(#paint1_linear_64_3)"/>
+  <defs>
+    <linearGradient id="paint0_linear_64_3" x1="3.43125" y1="7.50389" x2="61.419" y2="5.75854" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EE0080"/>
+      <stop offset="0.593996" stop-color="#EE0081"/>
+      <stop offset="0.994812" stop-color="#FFB6F3"/>
+      <stop offset="0.994912" stop-color="#F80086"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_64_3" x1="0.73125" y1="7.50389" x2="13.1" y2="7.42455" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EE0080"/>
+      <stop offset="0.593996" stop-color="#EE0081"/>
+      <stop offset="0.994812" stop-color="#FFB6F3"/>
+      <stop offset="0.994912" stop-color="#F80086"/>
+    </linearGradient>
+  </defs>
+</svg>
             <h1>EDUCATION</h1>
-            <div id="educationCarousel" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="card">
-                    <img src="images/v29_69.png" class="card-img-top" alt="Image 1">
-                    <div class="card-body">
-                      <h5 class="card-title">Card 1</h5>
-                      <p class="card-text">Description for Card 1.</p>
-                      <div class="card-text-divider"></div>
-                      <p>Additional details for Card 1.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Add more carousel items for education -->
-                <div class="carousel-item">
-                  <div class="card">
-                    <img src="images/v29_70.png" class="card-img-top" alt="Image 2">
-                    <div class="card-body">
-                      <h5 class="card-title">Card 2</h5>
-                      <p class="card-text">Description for Card 2.</p>
-                      <div class="card-text-divider"></div>
-                      <p>Additional details for Card 2.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Add even more carousel items for education -->
-              </div>
-              <a class="carousel-control-prev" href="#educationCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#educationCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="12" viewBox="0 0 80 12" fill="none">
-              <rect width="61" height="11" rx="5.5" transform="matrix(1 0 0 -1 0 11.9961)" fill="url(#paint0_linear_64_3)" />
-              <rect width="13" height="11" rx="5.5" transform="matrix(1 0 0 -1 67 11.9961)" fill="url(#paint1_linear_64_3)" />
-              <defs>
-                <linearGradient id="paint0_linear_64_3" x1="3.43125" y1="7.50389" x2="61.419" y2="5.75854" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#FF92ED" />
-                  <stop offset="0.641934" stop-color="#FFC6E5" />
-                  <stop offset="0.994812" stop-color="#FFB6F3" />
-                  <stop offset="0.994912" stop-color="#FF8AC9" />
-                </linearGradient>
-                <linearGradient id="paint1_linear_64_3" x1="0.73125" y1="7.50389" x2="13.1" y2="7.42455" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#FF92ED" />
-                  <stop offset="0.641934" stop-color="#FFC6E5" />
-                  <stop offset="0.994812" stop-color="#FFB6F3" />
-                  <stop offset="0.994912" stop-color="#FF8AC9" />
-                </linearGradient>
-              </defs>
-            </svg>
+
+			<div class="education-timeline">
+
+				<div class="vtimeline-point">
+					<div class="vtimeline-icon">
+						<i class="fa fa-map-marker"></i>
+					</div>
+					<div class="vtimeline-block">
+						<span class="vtimeline-date">September 2016 – October 2016</span>
+						<div date-date="September 2015 – September 2016" class="vtimeline-content">
+							<h3>Intern</h3>
+							<h4>Bernstein arts</h4>
+							<p>Worked with different APIs to collect data from social networks</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="vtimeline-point">
+					<div class="vtimeline-icon">
+						<i class="fa fa-map-marker"></i>
+					</div>
+					<div class="vtimeline-block">
+						<span class="vtimeline-date">January 2017 – Present</span>
+						<div date-date="September 2015 – September 2016" class="vtimeline-content">
+							<h3>Junior web developer</h3>
+							<h4>RaaR labs</h4>
+							<p>Helped to add a new feature to an existing project by connecting external service so that articles can be generated in a comfortable and easy way.</p>
+							<p>Developed mini games handling cross-browsing and adaptivity</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+</section>
+
+    <div class="experience">
+   
+   <!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Slick Carousel CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+
+<!-- Slick Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="11" viewBox="0 0 80 11" fill="none">
+  <rect width="61" height="11" rx="5.5" transform="matrix(1 0 0 -1 0 10.9961)" fill="url(#paint0_linear_69_4)"/>
+  <rect width="13" height="11" rx="5.5" transform="matrix(1 0 0 -1 67 10.9961)" fill="url(#paint1_linear_69_4)"/>
+  <defs>
+    <linearGradient id="paint0_linear_69_4" x1="3.43125" y1="7.50389" x2="61.419" y2="5.75854" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFA5D6"/>
+      <stop offset="0.593996" stop-color="#FF4CAD"/>
+      <stop offset="0.994812" stop-color="#FFB6F3"/>
+      <stop offset="0.994912" stop-color="#F80086"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_69_4" x1="0.73125" y1="7.50389" x2="13.1" y2="7.42455" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFA5D6"/>
+      <stop offset="0.593996" stop-color="#FF4CAD"/>
+      <stop offset="0.994812" stop-color="#FFB6F3"/>
+      <stop offset="0.994912" stop-color="#F80086"/>
+    </linearGradient>
+  </defs>
+</svg>
             <h1>EXPERIENCE</h1>
-            <div id="experienceCarousel" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="card">
-                    <img src="images/v29_69.png" class="card-img-top" alt="Image 1">
-                    <div class="card-body">
-                      <h5 class="card-title">Card 1</h5>
-                      <p class="card-text">Description for Card 1.</p>
-                      <div class="card-text-divider"></div>
-                      <p>Additional details for Card 1.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Add more carousel items for experience -->
-                <div class="carousel-item">
-                  <div class="card">
-                    <img src="images/v29_70.png" class="card-img-top" alt="Image 2">
-                    <div class="card-body">
-                      <h5 class="card-title">Card 2</h5>
-                      <p class="card-text">Description for Card 2.</p>
-                      <div class="card-text-divider"></div>
-                      <p>Additional details for Card 2.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Add even more carousel items for experience -->
-              </div>
-              <a class="carousel-control-prev" href="#experienceCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#experienceCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
+
+    <section class="timeline-carousel">
+   <div class="timeline-carousel__item-wrapper" data-js="timeline-carousel">
+      
+      <!--Timeline item-->
+      <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <span class="year">2001-2003</span>
+            <span class="month">Eget felis eget nunc lobortis mattis</span>
+            <p>Eget felis eget nunc lobortis mattis aliquam faucibus. Viverra nam libero justo laoreet sit amet. Elementum pulvinar etiam non quam lacus suspendisse faucibus. Nam libero justo laoreet sit amet cursus sit amet. Risus sed vulputate odio ut enim blandit. Quam adipiscing vitae proin sagittis nisl rhoncus.</p>
+            
+         </div>
+      </div>
+      <!--/Timeline item-->
+      
+      <!--Timeline item-->
+      <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <span class="year">2003</span>
+            <span class="month">Tristique magna sit amet</span>
+            <p>Tristique magna sit amet purus gravida quis blandit turpis.</p>
+            
+         </div>
+      </div>
+      <!--/Timeline item-->
+      
+      <!--Timeline item-->
+      <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <span class="year">2003</span>
+            <span class="month">Mauris pellentesque pulvinar pellentesque habitant</span>
+            <p>Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Cursus in hac habitasse platea dictumst quisque. Ipsum dolor sit amet consectetur adipiscing elit. </p>
+            
+         </div>
+      </div>
+      <!--/Timeline item-->
+      
+      <!--Timeline item-->
+      <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <span class="year">2004</span>
+            <span class="month">Cum sociis natoque penatibus</span>
+            <p>Cum sociis natoque penatibus et magnis dis. Interdum velit laoreet id donec ultrices tincidunt arcu non. Lorem sed risus ultricies tristique. Dui vivamus arcu felis bibendum ut. Tortor id aliquet lectus proin nibh nisl condimentum id.</p>
+            
+         </div>
+      </div>
+      <!--/Timeline item-->
+      
+      <!--Timeline item-->
+      <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <div class="pointer"></div>
+            <span class="month">Dictumst vestibulum rhoncus est</span>
+            <p>Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Posuere ac ut consequat semper.</p>
+            
+         </div>
+      </div>
+      <!--/Timeline item-->
+      
+      <!--Timeline item-->
+      <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <span class="year">2005</span>
+            <span class="month">Id nibh tortor id aliquet</span>
+            <p>Nunc eget lorem dolor sed viverra. Id nibh tortor id aliquet. Sed blandit libero volutpat sed cras. Fermentum posuere urna nec tincidunt praesent. Id ornare arcu odio ut sem nulla pharetra diam.</p>
+            
+         </div>
+      </div>
+      <!--/Timeline item-->
+      
+      <!--Timeline item-->
+      <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <span class="year">2006</span>
+            <span class="month">Pulvinar neque laoreet suspendisse</span>
+            <p>Pulvinar neque laoreet suspendisse interdum consectetur. Libero volutpat sed cras ornare. Ac auctor augue mauris augue.</p>
+            
+         </div>
+      </div>
+      <!--/Timeline item-->
+      
+      <!--Timeline item-->
+      <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <span class="year">2007</span>
+            <span class="month">Egestas quis ipsum</span>
+            <p>Non odio euismod lacinia at. Egestas quis ipsum suspendisse ultrices gravida. Dui nunc mattis enim ut tellus elementum sagittis vitae. Lectus quam id leo in vitae turpis massa sed elementum. Ridiculus mus mauris vitae ultricies leo integer malesuada. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus./p>
+            
+         </div>
+      </div>
+      <!--/Timeline item-->
+
+   </div>
+</section>
+<script>
+$.js = function (el) {
+    return $('[data-js=' + el + ']')
+};
+
+function carousel() {
+  $.js('timeline-carousel').slick({
+    infinite: false,
+    arrows: true,
+     arrows: true,
+    prevArrow: '<div class="slick-prev"> <div class="btn mr-3 btn-warning d-flex justify-content-center align-items-center"> <div>Previous</div><svg class="ml-1" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve"> <path d="M10.1,19.1l1.5-1.5L7,13h14.1v-2H7l4.6-4.6l-1.5-1.5L3,12L10.1,19.1z"/> </svg></div></div>',
+    nextArrow: '<div class="slick-next"> <div class="btn btn-warning d-flex justify-content-center align-items-center"> <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path d="M 14 4.9296875 L 12.5 6.4296875 L 17.070312 11 L 3 11 L 3 13 L 17.070312 13 L 12.5 17.570312 L 14 19.070312 L 21.070312 12 L 14 4.9296875 z"/> </svg> <div>Next</div></div></div>',
+    dots: true,
+    autoplay: false,
+    speed: 1100,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }]
+  });
+}
+
+carousel();
+  </script>
+    </div> </div>
+
+    
+    <section class="recommendations">
+
+      <div class="whattheysay">
+        <div class="hero">
+          <h1 class="hero__heading" id="reco">What do people say <br>about Kim? </h1>
+        </div>
+        <div class="hero hero--secondary" aria-hidden="true" data-hero>
+          <p class="hero__heading">pls work</p>
+        </div>
+      </div>
+      <div class="ticker-container">
+        <div class="ticker-wrapper">
+          <div class="ticker">
+            <span class="ticker-text">Limited time offer:</span> Get 10% off on our 1 Litre pack of Ghee! <a class="btn blink" href="[product-page-url]">Grab your pack now!</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="ticker-text">Introductory offer:</span> Buy our 150 ml pack of Ghee and get 100 gms Jaggery Powder complimentary. Try our small packs today! <a class="btn blink" href="[product-page-url]">Shop now!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+      <div id="button"></div>
+      <div id="container">
+        <div id="cont">
+          <div class="footer_contact">
+            <h3>Interested in working together? I'm just a message away.</h3>
+            <a href="mailto:mgkimb@outlook.com">
+              <svg fill="#fafafa" width="40px" height="40px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#fafafa">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path d="M22,5V9L12,13,2,9V5A1,1,0,0,1,3,4H21A1,1,0,0,1,22,5ZM2,11.154V19a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V11.154l-10,4Z"></path>
+                </g>
+              </svg>
+            </a>
+            <a href="https://facebook.com/mgkimb">
+              <svg fill="#fafafa" height="40px" width="40px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" stroke="#fafafa">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path d="M23,0H9C4,0,0,4,0,9v14c0,5,4,9,9,9h7V20h-4c-0.6,0-1-0.4-1-1v-3c0-0.6,0.4-1,1-1h4v-3c0-3.3,1.7-6,5-6h4c0.6,0,1,0.4,1,1v3 c0,0.6-0.4,1-1,1h-3.8c-0.1,0-0.2,0.1-0.2,0.2V15h5c0.3,0,0.6,0.2,0.8,0.4s0.2,0.6,0.1,0.9l-2,3C24.8,19.8,24.4,20,24,20h-3v12h2 c5,0,9-4,9-9V9C32,4,28,0,23,0z"></path>
+                </g>
+              </svg>
+            </a>
+            <a href="viber://chat?number=09454974932">
+              <svg fill="#fafafa" height="40px" width="40px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" stroke="#fafafa">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path d="M16,0C8.1,0,0,1.7,0,14c0,6.6,2.3,10.7,7,12.6v3.7c0,0.7,0.4,1.3,1,1.6C8.2,32,8.5,32,8.7,32c0.4,0,0.9-0.2,1.2-0.5l3.6-3.6 c0.8,0,1.6,0.1,2.5,0.1c7.9,0,16-1.7,16-14S23.9,0,16,0z M15.5,10.2c1.8,0,3.3,1.5,3.3,3.3c0,0.6-0.4,1-1,1s-1-0.4-1-1 c0-0.7-0.6-1.3-1.3-1.3c-0.6,0-1-0.4-1-1S14.9,10.2,15.5,10.2z M14.5,8.1c0-0.6,0.4-1,1-1c3.5,0,6.4,2.9,6.4,6.4c0,0.6-0.4,1-1,1 s-1-0.4-1-1c0-2.4-2-4.4-4.4-4.4C14.9,9.1,14.5,8.6,14.5,8.1z M22.7,20.5c-0.4,1.2-1.9,2.2-3.2,2.4C19.2,23,18.9,23,18.5,23 c-0.8,0-2-0.2-4.1-1.1c-2.4-1-4.8-3.1-6.7-5.8L7.7,16C7.1,15.1,6,13.4,6,11.6c0-2.2,1.1-3.3,1.5-3.8C8.1,7.3,8.8,7,9.6,7 c0.2,0,0.3,0,0.5,0c0.7,0,1.2,0.2,1.7,1.2l0.4,0.8c0.3,0.8,0.7,1.7,0.8,1.8c0.3,0.6,0.3,1.1,0,1.6c-0.1,0.3-0.3,0.5-0.5,0.7 c-0.1,0.2-0.2,0.3-0.3,0.3c-0.1,0.1-0.1,0.1-0.2,0.2c0.3,0.5,0.9,1.4,1.7,2.1c1.2,1.1,2.1,1.4,2.6,1.6l0,0c0.2-0.2,0.4-0.6,0.7-0.9 l0.1-0.2c0.5-0.7,1.3-0.9,2.1-0.6c0.4,0.2,2.6,1.2,2.6,1.2l0.2,0.1c0.3,0.2,0.7,0.3,0.9,0.7C23.2,18.5,22.9,19.8,22.7,20.5z M24,14.5c-0.6,0-1-0.4-1-1C23,9.4,19.6,6,15.5,6c-0.6,0-1-0.4-1-1s0.4-1,1-1c5.2,0,9.5,4.3,9.5,9.5C25,14.1,24.6,14.5,24,14.5z"></path>
+                </g>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/mgkimb/">
+              <svg fill="#fafafa" height="40px" width="40px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" stroke="#fafafa">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path d="M23,0H9C4,0,0,4,0,9v14c0,5,4,9,9,9h14c5,0,9-4,9-9V9C32,4,28,0,23,0z M12,25c0,0.6-0.4,1-1,1H7c-0.6,0-1-0.4-1-1V13 c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V25z M9,11c-1.7,0-3-1.3-3-3s1.3-3,3-3s3,1.3,3,3S10.7,11,9,11z M26,25c0,0.6-0.4,1-1,1h-3 c-0.6,0-1-0.4-1-1v-3.5v-1v-2c0-0.8-0.7-1.5-1.5-1.5S18,17.7,18,18.5v2v1V25c0,0.6-0.4,1-1,1h-3c-0.6,0-1-0.4-1-1V13 c0-0.6,0.4-1,1-1h4c0.3,0,0.5,0.1,0.7,0.3c0.6-0.2,1.2-0.3,1.8-0.3c3,0,5.5,2.5,5.5,5.5V25z"></path>
+                </g>
+              </svg>
+            </a>
+            <a href="https://github.com/mgkimb">
+              <svg fill="#fafafa" height="40px" width="40px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" stroke="#fafafa">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path d="M32,15.5c0-2.5-2-4.5-4.5-4.5c-1.1,0-2.1,0.4-2.9,1.1C22.1,10.7,19.1,10,16,10s-6.1,0.7-8.6,2.1C6.6,11.4,5.6,11,4.5,11 C2,11,0,13,0,15.5c0,1.5,0.8,3,2,3.8c0,0.3,0,0.5,0,0.7c0,5.5,6.3,10,14,10s14-4.5,14-10c0-0.2,0-0.5,0-0.7C31.2,18.5,32,17,32,15.5 z M9,19c0-1.7,1.3-3,3-3s3,1.3,3,3s-1.3,3-3,3S9,20.7,9,19z M21.6,24.8C20.5,25.7,18,26,16,26s-4.5-0.3-5.6-1.2 c-0.4-0.3-0.5-1-0.2-1.4c0.3-0.4,1-0.5,1.4-0.2C12,23.5,13.5,24,16,24s4-0.5,4.4-0.8c0.4-0.3,1.1-0.3,1.4,0.2S22.1,24.4,21.6,24.8z M20,22c-1.7,0-3-1.3-3-3s1.3-3,3-3s3,1.3,3,3S21.7,22,20,22z"></path>
+                  <g>
+                    <path d="M16,12c-0.2,0-0.3,0-0.4-0.1c-0.5-0.2-0.7-0.8-0.4-1.3l3-6c0.2-0.5,0.8-0.7,1.3-0.4l4,2c0.5,0.2,0.7,0.8,0.4,1.3 c-0.2,0.5-0.8,0.7-1.3,0.4l-3.1-1.6l-2.6,5.1C16.7,11.8,16.4,12,16,12z"></path>
+                  </g>
+                  <g>
+                    <path d="M25,11c-1.7,0-3-1.3-3-3s1.3-3,3-3s3,1.3,3,3S26.7,11,25,11z"></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a href="#">
+              <svg fill="#fafafa" height="40px" width="40px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" stroke="#fafafa">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <path d="M10.5,10H6v5h4h0.5c1.4,0,2.5-1.1,2.5-2.5S11.9,10,10.5,10z"></path>
+                    <path d="M23,0H9C4,0,0,4,0,9v14c0,5,4,9,9,9h14c5,0,9-4,9-9V9C32,4,28,0,23,0z M19,10h6c0.6,0,1,0.4,1,1s-0.4,1-1,1h-6 c-0.6,0-1-0.4-1-1S18.4,10,19,10z M15,20c0,2.8-2.2,5-5,5H5c-0.6,0-1-0.4-1-1v-8V9c0-0.6,0.4-1,1-1h5.5C13,8,15,10,15,12.5 c0,1.5-0.7,2.8-1.9,3.6C14.3,17.1,15,18.4,15,20z M27,20h-8.9c0.4,1.7,2,3,3.9,3c0.9,0,1.8-0.3,2.5-0.9c0.4-0.3,0.7-0.7,0.9-1.1 c0.3-0.5,0.9-0.6,1.4-0.4c0.5,0.3,0.6,0.9,0.4,1.4c-0.4,0.6-0.8,1.2-1.4,1.6C24.7,24.5,23.4,25,22,25c-3.3,0-6-2.7-6-6s2.7-6,6-6 s6,2.7,6,6C28,19.6,27.6,20,27,20z"></path>
+                    <path d="M22,15c-1.9,0-3.4,1.3-3.9,3h7.7C25.4,16.3,23.9,15,22,15z"></path>
+                    <path d="M10,17H6v6h4c1.7,0,3-1.3,3-3S11.7,17,10,17z"></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
           </div>
         </div>
       </div>
     </div>
-
-  
-
-    <section class="recommendations">
-
-    <div class="whattheysay">
-      <div class="hero">
-        <h1 class="hero__heading" id="reco">What do people say <br>about Kim? </h1>
-      </div>
-      <div class="hero hero--secondary" aria-hidden="true" data-hero>
-        <p class="hero__heading">pls work</p>
-      </div>
-    </div>
-    <div class="ticker-container">
-  <div class="ticker-wrapper">
-    <div class="ticker">
-      <span class="ticker-text">Limited time offer:</span> Get 10% off on our 1 Litre pack of Ghee! <a class="btn blink" href="[product-page-url]">Grab your pack now!</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="ticker-text">Introductory offer:</span> Buy our 150 ml pack of Ghee and get 100 gms Jaggery Powder complimentary. Try our small packs today! <a class="btn blink" href="[product-page-url]">Shop now!</a>
-    </div>
-  </div>
-</div>
-    </section>
-
-<div class="footer">
-  <div id="button"></div>
-<div id="container">
-<div id="cont">
-<div class="footer_center">
-     <h3>Classy footer text</h3>
-</div>
-</div>
-</div>
-</div>
-
     <script src="js/cursor.js"></script>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
   </body>
 </html>
