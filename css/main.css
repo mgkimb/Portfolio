@@ -190,6 +190,11 @@ span.brand-name {
 }
 
 .skills-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100%; /* Ensures vertical centering */
   text-align: center;
 }
 
@@ -204,10 +209,13 @@ span.brand-name {
 
 .works-info {
   flex: 100%;
-  padding: 10%; /* Remove padding */ /* Remove margin */
+  padding: 10% 0 10% 0; /* Remove padding */ /* Remove margin */
   background: linear-gradient(183deg, #FFF2F9 25%, #FF008A 100%);
 }
 
+.works-heading {
+  margin-left: 10%!important;
+}
 
 .works {
   display: flex;

@@ -12,20 +12,19 @@
   <body>
     <div class="navbar">
       <div class="brand">
-        <a href="index.html" style="text-decoration: none!important;">
+        <a href="index.php" style="text-decoration: none!important;">
           <img src="images/v5_12.png" alt="Brand Logo">
-          <span class="brand-name">MG <class style="color: #FA4EAB; margin-top: -5%;">KIM </style>
-              <class style="color: #1E1E1E;">B </style>
+          <span class="brand-name">MG<class style="color: #FA4EAB; margin-top: -5%;">KIM</style><class style="color: #1E1E1E;">B</style>
           </span>
         </a>
       </div>
       <div class="navbar-links">
         <a href="#about">About</a>
         <a href="#works">Works</a>
-        <a href="#eduex">Education</a>
-        <a href="#eduex">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
         <a href="#recommendations">What They Say</a>
-        <a href="#contact">Contact</a>
+       
       </div>
     </div>
     <div class="portfolio-banner">
@@ -115,6 +114,7 @@
       </div>
     </div>
     <div class="works-info" id="works">
+      <div id = "works-heading" style = "margin-left: 10%;">
       <svg xmlns="http://www.w3.org/2000/svg" width="80" height="11" viewBox="0 0 80 11" fill="none">
         <rect width="61" height="11" rx="5.5" transform="matrix(1 0 0 -1 0 11)" fill="url(#paint0_linear_29_6)" />
         <rect width="13" height="11" rx="5.5" transform="matrix(1 0 0 -1 67 11)" fill="url(#paint1_linear_29_6)" />
@@ -134,6 +134,7 @@
       <h1>
         <span>WORKS</span>
       </h1>
+</div>
       <div class="works">
         <div class="work">
           <img src="images/v29_68.png" alt="Work 1">
@@ -208,9 +209,9 @@
           </div>
         </div>
       </div>
-      <a class="recommend-btn" href="#recommendations" id="eduex">Worked with me before?</a>
+      <a class="recommend-btn" href="#recommendations" >Worked with me before?</a>
     </div>
-    <section class = "education">
+    <section class = "education" id = "education">
     <svg xmlns="http://www.w3.org/2000/svg" width="80" height="11" viewBox="0 0 80 11" fill="none">
   <rect width="61" height="11" rx="5.5" transform="matrix(1 0 0 -1 0 11)" fill="url(#paint0_linear_64_3)"/>
   <rect width="13" height="11" rx="5.5" transform="matrix(1 0 0 -1 67 11)" fill="url(#paint1_linear_64_3)"/>
@@ -265,7 +266,7 @@
 			</div>
 </section>
 
-    <div class="experience">
+    <div class="experience" id = "experience">
    
    <!-- jQuery library -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -446,7 +447,7 @@ carousel();
     </div> </div>
 
     
-    <section class="recommendations">
+    <section class="recommendations" id = "recommendations">
 
       <div class="whattheysay">
         <div class="hero">
