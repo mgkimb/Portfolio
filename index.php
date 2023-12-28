@@ -140,76 +140,114 @@
           <img src="images/v29_68.png" alt="Work 1">
           <a class="button" href="#">Learn More</a>
           <div class="additional-info">
-            <h2>Work Title</h2>
-            <p>Description goes here.</p>
-          </div>
+            <h2>Hospital Finder Platform</h2>
+            <p>MediTect  is an easy-to-use website helping users find nearby hospitals and 
+              manage their health accounts effortlessly. This project was a standout in APC Bootcamp and was prominently featured on the school's website.</p>
+            <p class = "tech"> This website used HTML5, CSS3, JavaScript, and Bootstrap for frontend interaction, along with CodeIgniter and PHP for backend tasks, and MySQL for database management. It was hosted on Heroku for a year.</p>
+            </div>
         </div>
         <div class="work">
           <img src="images/v29_69.png" alt="Work 2">
           <a class="button" href="#">Learn More</a>
           <div class="additional-info">
-            <h2>Work Title</h2>
-            <p>Description goes here.</p>
+            <h2>Company Website</h2>
+            <p>A website showcasing company information, product catalogs, and a collection of articles related to the company's offerings. This project received the highest grade in my first-year class IT130L-AM1 at Mapua.</p>
+            <p class = "tech">This website used HTML5, CSS3, JavaScript, and Bootstrap for frontend interaction. It was hosted on 000webhost for a year.</p>
           </div>
         </div>
         <div class="work">
           <img src="images/v29_70.png" alt="Work 2">
           <a class="button" href="#">Learn More</a>
           <div class="additional-info">
-            <h2>Work Title</h2>
-            <p>Description goes here.</p>
+            <h2>Condo Unit Rental, Sales, and Management System</h2>
+            <p>A Java GUI application designed to specify condo details, manage unit sales or leases, and generate comprehensive reports detailing the status of various condominiums.</p>
+            <p class = "tech">This application uses Swing libraries for an intuitive user interface and applies object-oriented programming (OOP) principles in Java development.</p>
           </div>
         </div>
         <div class="work">
           <img src="images/v29_71.png" alt="Work 1">
           <a class="button" href="#">Learn More</a>
           <div class="additional-info">
-            <h2>Work Title</h2>
-            <p>Description goes here.</p>
+            <h2>Student Organization Management System</h2>
+            <p>CardinalOrg is a front-end website offering school organization listings, member registration, and administrative tools for event applications. Administrators have access to performance-related reports for better organizational insights.</p>
+            <p class = "tech">This website used HTML5, CSS3, JavaScript, and Bootstrap for frontend interaction. </p>
           </div>
         </div>
         <div class="work">
           <img src="images/v29_72.png" alt="Work 2">
           <a class="button" href="#">Learn More</a>
           <div class="additional-info">
-            <h2>Work Title</h2>
-            <p>Description goes here.</p>
+            <h2>Salon Services Appointment System</h2>
+            <p>A website interface designed via Figma, presenting company information, client testimonials, service catalogs, and a streamlined booking system for salon appointments.</p>
+            <p class = "tech"> </p>
           </div>
         </div>
         <div class="work">
           <img src="images/v29_73.png" alt="Work 2">
           <a class="button" href="#">Learn More</a>
           <div class="additional-info">
-            <h2>Work Title</h2>
-            <p>Description goes here.</p>
+            <h2>Church Event Booking System</h2>
+            <p>A website enabling seamless event bookings within a church environment. It simplifies event browsing and reservations for congregants, while offering an intuitive admin interface for church administrators to efficiently manage events, registrations, and attendee lists.</p>
+            <p class = "tech">This website used HTML5, CSS3, JavaScript, and Bootstrap for frontend interaction, along PHP for backend tasks, and MySQL for database management. It was hosted on 000webhost for a year.</p>
           </div>
         </div>
         <div class="work">
           <img src="images/v29_74.png" alt="Work 1">
           <a class="button" href="#">Learn More</a>
           <div class="additional-info">
-            <h2>Work Title</h2>
-            <p>Description goes here.</p>
+            <h2>Clicking Game</h2>
+            <p>Clickers is a game presenting a timed clicking challenge with options for static clicking and navigating a moving object. It aims to engage players in an exciting test of speed and accuracy.</p>
+            <p class = "tech">This Java-based application incorporated engaging mouse, menu, and timer events.</p>
           </div>
         </div>
         <div class="work">
           <img src="images/v29_75.png" alt="Work 2">
           <a class="button" href="#">Learn More</a>
           <div class="additional-info">
-            <h2>Work Title</h2>
-            <p>Description goes here.</p>
+            <h2>Health Companion Mobile Application</h2>
+            <p>SafeSteps is a mobile app interface designed via Figma, facilitating users in finding nearby testing clinics anonymously and receiving diagnoses from doctors. Recognized with a 1st place award in an international competition for its innovative approach to women's healthcare access.</p>
           </div>
         </div>
         <div class="work">
           <img src="images/v29_76.png" alt="Work 2">
           <a class="button" href="#">Learn More</a>
           <div class="additional-info">
-            <h2>Work Title</h2>
-            <p>Description goes here.</p>
+            <h2>Zoo Management System</h2>
+            <p>A website designed to manage animal and staff directories efficiently. It offers multiple features for staff management and detailed reports for enhanced operational insights.</p>
+            <p class = "tech">This website used HTML5, CSS3, JavaScript, and Bootstrap for frontend interaction, PHP for backend tasks, and MySQL for database management.</p>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="images/10.png" alt="Work 1">
+          <a class="button" href="#">Learn More</a>
+          <div class="additional-info">
+            <h2>AI-Powered Plant Disease Detection Platform</h2>
+            <p>GrowTogether is a website allowing users to track plant disease trends, analyze uploaded plant photos for conditions, and access educational resources on plant diseases. This was an entry  for the SATU SMART 2023 competition. 
+</p>
+<p class = "tech">This website's main features used HTML5 and CSS3 for frontend interaction while Python was utilized for developing the model for plant disease detection. Other features of the website can be seen in the developed Figma prototype. </p>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/11.png" alt="Work 2">
+          <a class="button" href="#">Learn More</a>
+          <div class="additional-info">
+            <h2>Professional Social Networking Platform</h2>
+            <p>Circunect is a web app interface designed via Figma, specifically connecting educational institutions and industries. It enables partnership facilitation, event coordination, and comprehensive project management features for enhanced collaboration.</p>
+            <p class = "tech"> </p>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/12.png" alt="Work 2">
+          <a class="button" href="#">Learn More</a>
+          <div class="additional-info">
+            <h2>Audit Management System</h2>
+            <p>Audit.Edu is a web app interface designed via Figma, tailored for internal audits in higher educational institutions. It incorporates modules for audit, risk, complaint, and document management, streamlining administrative tasks and ensuring regulatory compliance.</p>
+            <p class = "tech"> </p>
           </div>
         </div>
       </div>
-      <a class="recommend-btn" href="#recommendations" >Worked with me before?</a>
+      <a class="certificates-btn" target="_blank" rel="noopener noreferrer" href="https://1drv.ms/f/s!AjhfCnZuudfngTBZ9JoBAn2lRXuP?e=CGzToQ" >View Certifications</a>
     </div>
     <section class = "education" id = "education">
     <svg xmlns="http://www.w3.org/2000/svg" width="80" height="11" viewBox="0 0 80 11" fill="none">
@@ -233,17 +271,16 @@
             <h1>EDUCATION</h1>
 
 			<div class="education-timeline">
-
-				<div class="vtimeline-point">
+      <div class="vtimeline-point">
 					<div class="vtimeline-icon">
 						<i class="fa fa-map-marker"></i>
 					</div>
 					<div class="vtimeline-block">
-						<span class="vtimeline-date">September 2016 – October 2016</span>
+						<span class="vtimeline-date">March 2015 – March 2019</span>
 						<div date-date="September 2015 – September 2016" class="vtimeline-content">
-							<h3>Intern</h3>
-							<h4>Bernstein arts</h4>
-							<p>Worked with different APIs to collect data from social networks</p>
+							<h3>San Isidro National High School</h3>
+							<h4>Junior High School</h4>
+							<p>Attained the 7th rank among all students in Batch 2018-2019</p>
 						</div>
 					</div>
 				</div>
@@ -253,12 +290,25 @@
 						<i class="fa fa-map-marker"></i>
 					</div>
 					<div class="vtimeline-block">
-						<span class="vtimeline-date">January 2017 – Present</span>
+						<span class="vtimeline-date">June 2019 – June 2021</span>
 						<div date-date="September 2015 – September 2016" class="vtimeline-content">
-							<h3>Junior web developer</h3>
-							<h4>RaaR labs</h4>
-							<p>Helped to add a new feature to an existing project by connecting external service so that articles can be generated in a comfortable and easy way.</p>
-							<p>Developed mini games handling cross-browsing and adaptivity</p>
+							<h3>Asia Pacific College</h3>
+							<h4>Science, Technology, Engineering, and Mathematics (STEM) strand, specializing in Information Technology</h4>
+							<p>Graduated in the top 16% of the Batch 2020-2021 with a GWA of 92.38</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="vtimeline-point">
+					<div class="vtimeline-icon">
+						<i class="fa fa-map-marker"></i>
+					</div>
+					<div class="vtimeline-block">
+						<span class="vtimeline-date">September 2021 – Present</span>
+						<div date-date="September 2015 – September 2016" class="vtimeline-content">
+							<h3>Mapúa University</h3>
+							<h4>Bachelor of Science in Information Systems, specializing in Enterprise Resource Planning</h4>
+							<p>Consistently ranked 1st for three consecutive terms in the program batch 2021-2022, while maintaining presence on the Dean's list for seven terms</p>
 						</div>
 					</div>
 				</div>
@@ -295,20 +345,63 @@
     </linearGradient>
   </defs>
 </svg>
-            <h1>EXPERIENCE</h1>
+            <h1>LEADERSHIP AND ACHIEVEMENTS</h1>
 
     <section class="timeline-carousel">
    <div class="timeline-carousel__item-wrapper" data-js="timeline-carousel">
       
+   <!--Timeline item-->
+   <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/events/GDSC-MAPUA.png') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <span class="year">PRESENT</span>
+            <span class="month">Technical Committee Member, Google Developers Student Club</span>
+            <p>Volunteered in the coordination and execution of online Google technology events such as Flutter and Firebase at Mapúa University. Supported in the management of Discord and Bevy platforms, assisting with coordination and participation activities.</p>
+            
+         </div>
+      </div>
+      <!--/Timeline item-->
+
       <!--Timeline item-->
       <div class="timeline-carousel__item">
          <div class="timeline-carousel__image">
-            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/events/ERPSIM2023.jpg') center center; background-size:cover;"></div>
          </div>
          <div class="timeline-carousel__item-inner">
-            <span class="year">2001-2003</span>
-            <span class="month">Eget felis eget nunc lobortis mattis</span>
-            <p>Eget felis eget nunc lobortis mattis aliquam faucibus. Viverra nam libero justo laoreet sit amet. Elementum pulvinar etiam non quam lacus suspendisse faucibus. Nam libero justo laoreet sit amet cursus sit amet. Risus sed vulputate odio ut enim blandit. Quam adipiscing vitae proin sagittis nisl rhoncus.</p>
+            <span class="year">DEC 2023</span>
+            <span class="month">6th Place, ERPism Philippines Student Friendly Competition 2023</span>
+            <p>Led the team in utilizing SAP S4HANA, while also overseeing forecasting and managing Material Requirements Planning (MRP) runs. Provided continuous guidance and support to team members for their assigned tasks.</p>
+            
+         </div>
+      </div>
+      <!--/Timeline item-->
+      
+      
+      
+      <!--Timeline item-->
+      <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/events/TECH4WOMEN.jpg') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <span class="year">JUNE 2023</span>
+            <span class="month">1st Place, Tech4Women Hackathon Singapore 2023</span>
+            <p>Directed the team through the ideation, prototyping, and strategic planning phases for the mobile application 'SafeSteps,' contributing to the success in the prestigious French-led competition attended by teams from 48 universities across 18 countries. </p>
+            
+         </div>
+      </div>
+      <!--/Timeline item-->
+ <!--Timeline item-->
+ <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/events/isng-f2f.jpg') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <span class="year">AUG 2023</span>
+            <span class="month">Internal Vice President & Council of Organizations (COO) Representative, Information Systems Next-Gen</span>
+            <p>Initiated and coordinated event planning and internal affairs management as the Internal Vice President. Represented the organization in councils. Led the organization to attain the top-ranking position in Mapúa Makati and earned awards such as Best Booth, People's Choice Award and, Best Organization in the School of IT department.</p>
             
          </div>
       </div>
@@ -317,54 +410,26 @@
       <!--Timeline item-->
       <div class="timeline-carousel__item">
          <div class="timeline-carousel__image">
-            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
-         </div>
-         <div class="timeline-carousel__item-inner">
-            <span class="year">2003</span>
-            <span class="month">Tristique magna sit amet</span>
-            <p>Tristique magna sit amet purus gravida quis blandit turpis.</p>
-            
-         </div>
-      </div>
-      <!--/Timeline item-->
-      
-      <!--Timeline item-->
-      <div class="timeline-carousel__item">
-         <div class="timeline-carousel__image">
-            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
-         </div>
-         <div class="timeline-carousel__item-inner">
-            <span class="year">2003</span>
-            <span class="month">Mauris pellentesque pulvinar pellentesque habitant</span>
-            <p>Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Cursus in hac habitasse platea dictumst quisque. Ipsum dolor sit amet consectetur adipiscing elit. </p>
-            
-         </div>
-      </div>
-      <!--/Timeline item-->
-      
-      <!--Timeline item-->
-      <div class="timeline-carousel__item">
-         <div class="timeline-carousel__image">
-            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
-         </div>
-         <div class="timeline-carousel__item-inner">
-            <span class="year">2004</span>
-            <span class="month">Cum sociis natoque penatibus</span>
-            <p>Cum sociis natoque penatibus et magnis dis. Interdum velit laoreet id donec ultrices tincidunt arcu non. Lorem sed risus ultricies tristique. Dui vivamus arcu felis bibendum ut. Tortor id aliquet lectus proin nibh nisl condimentum id.</p>
-            
-         </div>
-      </div>
-      <!--/Timeline item-->
-      
-      <!--Timeline item-->
-      <div class="timeline-carousel__item">
-         <div class="timeline-carousel__image">
-            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images//events/isng-online.png') center center; background-size:cover;"></div>
          </div>
          <div class="timeline-carousel__item-inner">
             <div class="pointer"></div>
-            <span class="month">Dictumst vestibulum rhoncus est</span>
-            <p>Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. Posuere ac ut consequat semper.</p>
+            <span class="month">Design Head, Information Systems Next-Gen</span>
+            <p>Spearheaded the planning and design of the organization's publication materials, including social media posts, Zoom backgrounds, stream overlays, e-mail banners, and brochures.</p>
+            
+         </div>
+      </div>
+      <!--/Timeline item-->
+
+        <!--Timeline item-->
+        <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/events/erpsim-apjcup.png') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <span class="year">MARCH 2023</span>
+            <span class="month">Participant, ERPSim APJ Cup Student Friendly Competition 2022</span>
+            <p>Represented the Philippines as part of three local teams in the Asia Pacific Japan Region, achieving the 10th rank among all participating teams across the region.</p>
             
          </div>
       </div>
@@ -373,12 +438,56 @@
       <!--Timeline item-->
       <div class="timeline-carousel__item">
          <div class="timeline-carousel__image">
-            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/events/EPRSIM2022.jpg') center center; background-size:cover;"></div>
          </div>
          <div class="timeline-carousel__item-inner">
-            <span class="year">2005</span>
-            <span class="month">Id nibh tortor id aliquet</span>
-            <p>Nunc eget lorem dolor sed viverra. Id nibh tortor id aliquet. Sed blandit libero volutpat sed cras. Fermentum posuere urna nec tincidunt praesent. Id ornare arcu odio ut sem nulla pharetra diam.</p>
+            <div class="pointer"></div>
+           <span class="month">2nd Place, ERPism Philippines Student Friendly Competition 2022</span>
+            <p>Managed sales and marketing operations proficiently through the platform SAP S4HANA, contributing to the team's achievement of securing second place nationwide in the Philippines.</p>
+         
+         </div>
+      </div>
+      <!--/Timeline item-->
+
+        <!--Timeline item-->
+        <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/events/parknsell.png') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <span class="year">DEC 2022</span>
+            <span class="month"> Virtual Apprentice, Park N' Sell</span>
+            <p>Conducted in-depth research and interviews to build customer profiles for Park N' Sell, executed tailored advertising campaigns, and optimized social media content to enhance engagement and reach as part of the virtual apprenticeship program offered by KadaKareer.</p>
+            
+         </div>
+      </div>
+      <!--/Timeline item-->
+      <!--Timeline item-->
+      <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/events/akbay.png') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <span class="year">DEC 2022</span>
+            <span class="month"> Ambassador, DLSU Project AkBay: Aksyon at Bayanihan </span>
+            <p>Promoted the initiative as a volunteer and earned the distinction of being recognized as the Best Ambassador among over 60 ambassadors representing various universities. Through this effort, the initiative raised over ₱14, 000 and provided essential academic and health-related materials the initiative's partner community.</p>
+            
+         </div>
+      </div>
+      <!--/Timeline item-->
+    
+      
+    
+      
+      <!--Timeline item-->
+      <div class="timeline-carousel__item">
+         <div class="timeline-carousel__image">
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/events/esp club.jpg') center center; background-size:cover;"></div>
+         </div>
+         <div class="timeline-carousel__item-inner">
+            <span class="year">JUNE 2019</span>
+            <span class="month">EsP Club President</span>
+            <p>Orchestrated the planning and flawless execution of events, including competitions that featured a GMA artist as a judge. Additionally, oversaw the development of financial statements, took on hosting roles, coordinated club meetings and, represented the organization at meetings.</p>
             
          </div>
       </div>
@@ -387,26 +496,12 @@
       <!--Timeline item-->
       <div class="timeline-carousel__item">
          <div class="timeline-carousel__image">
-            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
+            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/events/dalisay.jpg') center center; background-size:cover;"></div>
          </div>
          <div class="timeline-carousel__item-inner">
-            <span class="year">2006</span>
-            <span class="month">Pulvinar neque laoreet suspendisse</span>
-            <p>Pulvinar neque laoreet suspendisse interdum consectetur. Libero volutpat sed cras ornare. Ac auctor augue mauris augue.</p>
-            
-         </div>
-      </div>
-      <!--/Timeline item-->
-      
-      <!--Timeline item-->
-      <div class="timeline-carousel__item">
-         <div class="timeline-carousel__image">
-            <div class="media-wrapper media-wrapper--overlay" style="background: url('images/v29_69.png') center center; background-size:cover;"></div>
-         </div>
-         <div class="timeline-carousel__item-inner">
-            <span class="year">2007</span>
-            <span class="month">Egestas quis ipsum</span>
-            <p>Non odio euismod lacinia at. Egestas quis ipsum suspendisse ultrices gravida. Dui nunc mattis enim ut tellus elementum sagittis vitae. Lectus quam id leo in vitae turpis massa sed elementum. Ridiculus mus mauris vitae ultricies leo integer malesuada. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus./p>
+            <span class="year">JUNE 2019</span>
+            <span class="month">Editorial Writer, Layout Artist and, Feature Writer, Dalisay Journalism Club</span>
+            <p>Authored numerous articles and animated cartoons using Medibang Paint, all featured in the school paper for Batch 2018-2019. Also conducted interviews with various personalities and actively contributed to initiatives benefiting Persons With Disabilities (PWDs).</p>
             
          </div>
       </div>
@@ -454,13 +549,20 @@ carousel();
           <h1 class="hero__heading" id="reco">What do people say <br>about Kim? </h1>
         </div>
         <div class="hero hero--secondary" aria-hidden="true" data-hero>
-          <p class="hero__heading">pls work</p>
+          <p class="hero__heading">Creative Detail-oriented Encouraging Self-Directed Appreciative Enthusiastic Team player Investigative Patient Responsible Requirements-focused Resourceful Initiative-taking</p>
         </div>
       </div>
       <div class="ticker-container">
         <div class="ticker-wrapper">
           <div class="ticker">
-            <span class="ticker-text">Limited time offer:</span> Get 10% off on our 1 Litre pack of Ghee! <a class="btn blink" href="[product-page-url]">Grab your pack now!</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="ticker-text">Introductory offer:</span> Buy our 150 ml pack of Ghee and get 100 gms Jaggery Powder complimentary. Try our small packs today! <a class="btn blink" href="[product-page-url]">Shop now!</a>
+          <span class="ticker-texts"> The following are a list of tools I'm familiar with </span>&nbsp;&nbsp;&nbsp;&nbsp; 
+            <span class="ticker-text">Web Development:</span> HTML, CSS, SCSS, JavaScript, PHP, Webflow, WordPress, Wix &nbsp;&nbsp;
+            <span class="ticker-text">Other Programming Languages:</span> Java, Python &nbsp;&nbsp;
+            <span class="ticker-text">Database Management:</span> MySQL &nbsp;&nbsp;
+            <span class="ticker-text">Design Tools:</span> Figma, Photoscape X, Canva, Adobe Photoshop, Adobe Illustrator &nbsp;&nbsp;
+            <span class="ticker-text">Analytics:</span> Power BI, SAS Viya &nbsp;&nbsp;
+            <span class="ticker-text">Enterprise Resource Planning Systems:</span> SAP S4HANA &nbsp;&nbsp;
+            <span class="ticker-text">Project Management Tools:</span> Notion, Trello, Asana &nbsp;&nbsp;
           </div>
         </div>
       </div>
@@ -471,7 +573,7 @@ carousel();
         <div id="cont">
           <div class="footer_contact">
             <h3>Interested in working together? I'm just a message away.</h3>
-            <a href="mailto:mgkimb@outlook.com">
+            <a target="_blank" rel="noopener noreferrer" href="mailto:mgkimb@outlook.com">
               <svg fill="#fafafa" width="40px" height="40px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#fafafa">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -480,7 +582,7 @@ carousel();
                 </g>
               </svg>
             </a>
-            <a href="https://facebook.com/mgkimb">
+            <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/mgkimb">
               <svg fill="#fafafa" height="40px" width="40px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" stroke="#fafafa">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -489,7 +591,7 @@ carousel();
                 </g>
               </svg>
             </a>
-            <a href="viber://chat?number=09454974932">
+            <a target="_blank" rel="noopener noreferrer" href="viber://chat?number=09454974932">
               <svg fill="#fafafa" height="40px" width="40px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" stroke="#fafafa">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -498,7 +600,7 @@ carousel();
                 </g>
               </svg>
             </a>
-            <a href="https://www.linkedin.com/in/mgkimb/">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mgkimb/">
               <svg fill="#fafafa" height="40px" width="40px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" stroke="#fafafa">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -507,7 +609,7 @@ carousel();
                 </g>
               </svg>
             </a>
-            <a href="https://github.com/mgkimb">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/mgkimb">
               <svg fill="#fafafa" height="40px" width="40px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" stroke="#fafafa">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -522,7 +624,7 @@ carousel();
                 </g>
               </svg>
             </a>
-            <a href="#">
+            <a target="_blank" rel="noopener noreferrer" href="#">
               <svg fill="#fafafa" height="40px" width="40px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" stroke="#fafafa">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>

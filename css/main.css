@@ -189,6 +189,10 @@ span.brand-name {
   color: #FFF2F9;
 }
 
+.skills:hover {
+  background: linear-gradient(218deg, #FF008A 0%, #FE83C6 100%);
+}
+
 .skills-content {
   display: flex;
   flex-direction: column;
@@ -236,13 +240,29 @@ span.brand-name {
   width: 300px;
   height: 200px;
   transition: transform 0.3s, filter 0.3s;
-  border-radius: 50px;
+  border-radius: 20px;
   filter: grayscale(100%);
 }
 
 .work:hover img {
   transform: scale(1.1);
   filter: grayscale(0%);
+}
+
+.work h2  {
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+
+.work p {
+  font-size: 0.8em;
+}
+
+.work .tech {
+  font-size: 0.6em;
+  font-style: italic;
+  padding-bottom: 1rem;
 }
 
 .button {
@@ -291,6 +311,7 @@ span.brand-name {
   padding: 20px;
   text-align: center;
   display: none;
+  overflow-y: scroll;
 }
 
 .work:hover .additional-info {
@@ -301,20 +322,20 @@ span.brand-name {
   display: block;
 }
 
-.recommend-btn {
+.certificates-btn {
   display: block;
-  width: 30%;
+  width: 20%;
   background: rgba(255,242,249,1);
   color: #333;
   text-align: center;
   padding: 20px;
   border-radius: 35px;
   text-decoration: none;
-  margin: 0 auto; /* Center horizontally */
+  margin: 0 auto;
   position: inherit;
 }
 
-.recommend-btn:hover {
+.certificates-btn:hover {
   background-color: rgba(255,242,249,1);
   color: #ff008ccf;
 }
@@ -399,7 +420,8 @@ span.brand-name {
 }
 
 .hero__heading {
-  font-size: clamp(2rem, 5vw, 8rem);
+  font-size: 4vw;
+  text-align: center;
   text-transform: uppercase;
   margin: 0;
 }
@@ -420,6 +442,18 @@ span.brand-name {
   z-index: 1;
 }
 
+.ticker-container .btn  {
+  background: #ffffff;
+    color: #000;
+    padding: 5px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.media-wrapper {
+  border-radius: 20px;
+}
+
 .ticker-wrapper {
   display: inline-block;
   animation: ticker 30s linear infinite;
@@ -434,9 +468,17 @@ span.brand-name {
 }
 
 .ticker-text {
-  font-weight: bold;
-  color: #F2B922;
+  font-weight: bolder;
+  color: rgb(255, 235, 234);
 }
+
+.ticker-texts {
+  color: #ff0f91;
+  background: #212529;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+
 
 .blink {
   animation: blinker 1s linear infinite;
@@ -594,7 +636,7 @@ span.brand-name {
 }
 .timeline-carousel h1 {
   color: rgba(255, 255, 255, 1)
-  font-weight: 700;
+  font-weight: bold;
 }
 .timeline-carousel p {
   color: rgba(255, 255, 255, 1);
@@ -804,7 +846,7 @@ span.brand-name {
   }
 
   .btn:hover:active {
-    background-color: #ff94ea;
+    background-color: #dbdbdb;
      border-color:#000000 ;
   }
 
@@ -900,9 +942,9 @@ span.brand-name {
   background: white;
   margin-left: 350px;
   border: 1px solid #e6e6e6;
-  padding: 15px;
-  border-radius: 3px;
+  padding: 25px;
   text-align: left;
+  border-radius: 20px;
 }
 
 .vtimeline-content h3 {
@@ -914,7 +956,7 @@ span.brand-name {
 }
 
 .vtimeline-content h4 {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 300;
   color: #7e8890;
   margin: 4px 0 15px 0;
