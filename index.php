@@ -460,7 +460,7 @@
             <p>Conducted in-depth research and interviews to build customer profiles for Park N' Sell, executed tailored advertising campaigns, and optimized social media content to enhance engagement and reach as part of the virtual apprenticeship program offered by KadaKareer.</p>
             
          </div>
-      </div>
+      </div> 
       <!--/Timeline item-->
       <!--Timeline item-->
       <div class="timeline-carousel__item">
@@ -475,11 +475,6 @@
          </div>
       </div>
       <!--/Timeline item-->
-    
-      
-    
-      
-      <!--Timeline item-->
       <div class="timeline-carousel__item">
          <div class="timeline-carousel__image">
             <div class="media-wrapper media-wrapper--overlay" style="background: url('images/events/esp club.jpg') center center; background-size:cover;"></div>
